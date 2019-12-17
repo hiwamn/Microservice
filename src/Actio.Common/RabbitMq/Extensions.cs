@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 using RawRabbit.Pipe;
 using System.Reflection;
 using Actio.Common.Events;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Configuration;
+using RawRabbit.Instantiation;
 
 namespace Actio.Common.RabbitMq
 {
@@ -24,6 +27,18 @@ namespace Actio.Common.RabbitMq
             ctx=>ctx.UseConsumerConfiguration(cfg=>
             cfg.FromDeclaredQueue(q=>q.WithName(GetQueueName<TEvent>()))));
 
-        private static string GetQueueName<T>() => $"{Assembly.GetEntryAssembly().GetName()}/{typeof(T).Name}"; 
+        private static string GetQueueName<T>() => $"{Assembly.GetEntryAssembly().GetName()}/{typeof(T).Name}";
+
+        public static void AddRabbitMq(this IServiceCollection service, IConfiguration config)
+        {
+            var option = new RabbitMqOptions();
+            var section = config.GetSection("rabbitmq");
+            section.Bind(option);
+            var client = RawRabbitFactory.CreateSingleton(new RawRabbitOptions
+            {
+                ClientConfiguration = option
+            });
+            service.AddSingleton<IBusClient>(_=> client);
+        }
     }
 }

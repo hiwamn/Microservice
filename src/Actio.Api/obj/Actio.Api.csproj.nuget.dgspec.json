@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Microservice\\src\\Actio.Api\\Actio.Api.csproj": {}
+    "D:\\Temp\\Research13980605\\Packtpub .NET Core Microservices [Video]_git.ir\\Source\\Actio\\src\\Actio.Api\\Actio.Api.csproj": {}
   },
   "projects": {
-    "E:\\Microservice\\src\\Actio.Api\\Actio.Api.csproj": {
+    "D:\\Temp\\Research13980605\\Packtpub .NET Core Microservices [Video]_git.ir\\Source\\Actio\\src\\Actio.Api\\Actio.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Microservice\\src\\Actio.Api\\Actio.Api.csproj",
+        "projectUniqueName": "D:\\Temp\\Research13980605\\Packtpub .NET Core Microservices [Video]_git.ir\\Source\\Actio\\src\\Actio.Api\\Actio.Api.csproj",
         "projectName": "Actio.Api",
-        "projectPath": "E:\\Microservice\\src\\Actio.Api\\Actio.Api.csproj",
-        "packagesPath": "C:\\Users\\3849824527\\.nuget\\packages\\",
-        "outputPath": "E:\\Microservice\\src\\Actio.Api\\obj\\",
+        "projectPath": "D:\\Temp\\Research13980605\\Packtpub .NET Core Microservices [Video]_git.ir\\Source\\Actio\\src\\Actio.Api\\Actio.Api.csproj",
+        "packagesPath": "C:\\Users\\Hirad\\.nuget\\packages\\",
+        "outputPath": "D:\\Temp\\Research13980605\\Packtpub .NET Core Microservices [Video]_git.ir\\Source\\Actio\\src\\Actio.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\3849824527\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hirad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "E:\\Microservice\\src\\Actio.Common\\Actio.Common.csproj": {
-                "projectPath": "E:\\Microservice\\src\\Actio.Common\\Actio.Common.csproj"
+              "D:\\Temp\\Research13980605\\Packtpub .NET Core Microservices [Video]_git.ir\\Source\\Actio\\src\\Actio.Common\\Actio.Common.csproj": {
+                "projectPath": "D:\\Temp\\Research13980605\\Packtpub .NET Core Microservices [Video]_git.ir\\Source\\Actio\\src\\Actio.Common\\Actio.Common.csproj"
               }
             }
           }
@@ -64,27 +64,33 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Microservice\\src\\Actio.Common\\Actio.Common.csproj": {
+    "D:\\Temp\\Research13980605\\Packtpub .NET Core Microservices [Video]_git.ir\\Source\\Actio\\src\\Actio.Common\\Actio.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Microservice\\src\\Actio.Common\\Actio.Common.csproj",
+        "projectUniqueName": "D:\\Temp\\Research13980605\\Packtpub .NET Core Microservices [Video]_git.ir\\Source\\Actio\\src\\Actio.Common\\Actio.Common.csproj",
         "projectName": "Actio.Common",
-        "projectPath": "E:\\Microservice\\src\\Actio.Common\\Actio.Common.csproj",
-        "packagesPath": "C:\\Users\\3849824527\\.nuget\\packages\\",
-        "outputPath": "E:\\Microservice\\src\\Actio.Common\\obj\\",
+        "projectPath": "D:\\Temp\\Research13980605\\Packtpub .NET Core Microservices [Video]_git.ir\\Source\\Actio\\src\\Actio.Common\\Actio.Common.csproj",
+        "packagesPath": "C:\\Users\\Hirad\\.nuget\\packages\\",
+        "outputPath": "D:\\Temp\\Research13980605\\Packtpub .NET Core Microservices [Video]_git.ir\\Source\\Actio\\src\\Actio.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\3849824527\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hirad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -144,10 +150,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
