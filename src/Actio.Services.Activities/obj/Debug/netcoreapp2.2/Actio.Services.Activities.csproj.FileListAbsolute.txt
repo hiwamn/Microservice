@@ -17,3 +17,20 @@ D:\Temp\Research13980605\Packtpub .NET Core Microservices [Video]_git.ir\Source\
 D:\Temp\Research13980605\Packtpub .NET Core Microservices [Video]_git.ir\Source\Actio\src\Actio.Services.Activities\obj\Debug\netcoreapp2.2\Actio.Services.Activities.csproj.CopyComplete
 D:\Temp\Research13980605\Packtpub .NET Core Microservices [Video]_git.ir\Source\Actio\src\Actio.Services.Activities\obj\Debug\netcoreapp2.2\Actio.Services.Activities.dll
 D:\Temp\Research13980605\Packtpub .NET Core Microservices [Video]_git.ir\Source\Actio\src\Actio.Services.Activities\obj\Debug\netcoreapp2.2\Actio.Services.Activities.pdb
+E:\Microservice\src\Actio.Services.Activities\bin\Debug\netcoreapp2.2\Actio.Services.Activities.deps.json
+E:\Microservice\src\Actio.Services.Activities\bin\Debug\netcoreapp2.2\Actio.Services.Activities.runtimeconfig.json
+E:\Microservice\src\Actio.Services.Activities\bin\Debug\netcoreapp2.2\Actio.Services.Activities.runtimeconfig.dev.json
+E:\Microservice\src\Actio.Services.Activities\bin\Debug\netcoreapp2.2\Actio.Services.Activities.dll
+E:\Microservice\src\Actio.Services.Activities\bin\Debug\netcoreapp2.2\Actio.Services.Activities.pdb
+E:\Microservice\src\Actio.Services.Activities\bin\Debug\netcoreapp2.2\Actio.Common.dll
+E:\Microservice\src\Actio.Services.Activities\bin\Debug\netcoreapp2.2\Actio.Common.pdb
+E:\Microservice\src\Actio.Services.Activities\obj\Debug\netcoreapp2.2\Actio.Services.Activities.csprojAssemblyReference.cache
+E:\Microservice\src\Actio.Services.Activities\obj\Debug\netcoreapp2.2\Actio.Services.Activities.csproj.CoreCompileInputs.cache
+E:\Microservice\src\Actio.Services.Activities\obj\Debug\netcoreapp2.2\Actio.Services.Activities.RazorAssemblyInfo.cache
+E:\Microservice\src\Actio.Services.Activities\obj\Debug\netcoreapp2.2\Actio.Services.Activities.RazorAssemblyInfo.cs
+E:\Microservice\src\Actio.Services.Activities\obj\Debug\netcoreapp2.2\Actio.Services.Activities.AssemblyInfoInputs.cache
+E:\Microservice\src\Actio.Services.Activities\obj\Debug\netcoreapp2.2\Actio.Services.Activities.AssemblyInfo.cs
+E:\Microservice\src\Actio.Services.Activities\obj\Debug\netcoreapp2.2\Actio.Services.Activities.RazorTargetAssemblyInfo.cache
+E:\Microservice\src\Actio.Services.Activities\obj\Debug\netcoreapp2.2\Actio.Services.Activities.csproj.CopyComplete
+E:\Microservice\src\Actio.Services.Activities\obj\Debug\netcoreapp2.2\Actio.Services.Activities.dll
+E:\Microservice\src\Actio.Services.Activities\obj\Debug\netcoreapp2.2\Actio.Services.Activities.pdb

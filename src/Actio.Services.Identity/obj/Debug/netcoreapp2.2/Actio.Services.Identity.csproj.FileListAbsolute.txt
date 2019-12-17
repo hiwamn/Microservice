@@ -17,3 +17,20 @@ D:\Temp\Research13980605\Packtpub .NET Core Microservices [Video]_git.ir\Source\
 D:\Temp\Research13980605\Packtpub .NET Core Microservices [Video]_git.ir\Source\Actio\src\Actio.Services.Identity\obj\Debug\netcoreapp2.2\Actio.Services.Identity.csproj.CopyComplete
 D:\Temp\Research13980605\Packtpub .NET Core Microservices [Video]_git.ir\Source\Actio\src\Actio.Services.Identity\obj\Debug\netcoreapp2.2\Actio.Services.Identity.dll
 D:\Temp\Research13980605\Packtpub .NET Core Microservices [Video]_git.ir\Source\Actio\src\Actio.Services.Identity\obj\Debug\netcoreapp2.2\Actio.Services.Identity.pdb
+E:\Microservice\src\Actio.Services.Identity\bin\Debug\netcoreapp2.2\Actio.Services.Identity.deps.json
+E:\Microservice\src\Actio.Services.Identity\bin\Debug\netcoreapp2.2\Actio.Services.Identity.runtimeconfig.json
+E:\Microservice\src\Actio.Services.Identity\bin\Debug\netcoreapp2.2\Actio.Services.Identity.runtimeconfig.dev.json
+E:\Microservice\src\Actio.Services.Identity\bin\Debug\netcoreapp2.2\Actio.Services.Identity.dll
+E:\Microservice\src\Actio.Services.Identity\bin\Debug\netcoreapp2.2\Actio.Services.Identity.pdb
+E:\Microservice\src\Actio.Services.Identity\bin\Debug\netcoreapp2.2\Actio.Common.dll
+E:\Microservice\src\Actio.Services.Identity\bin\Debug\netcoreapp2.2\Actio.Common.pdb
+E:\Microservice\src\Actio.Services.Identity\obj\Debug\netcoreapp2.2\Actio.Services.Identity.csprojAssemblyReference.cache
+E:\Microservice\src\Actio.Services.Identity\obj\Debug\netcoreapp2.2\Actio.Services.Identity.csproj.CoreCompileInputs.cache
+E:\Microservice\src\Actio.Services.Identity\obj\Debug\netcoreapp2.2\Actio.Services.Identity.RazorAssemblyInfo.cache
+E:\Microservice\src\Actio.Services.Identity\obj\Debug\netcoreapp2.2\Actio.Services.Identity.RazorAssemblyInfo.cs
+E:\Microservice\src\Actio.Services.Identity\obj\Debug\netcoreapp2.2\Actio.Services.Identity.AssemblyInfoInputs.cache
+E:\Microservice\src\Actio.Services.Identity\obj\Debug\netcoreapp2.2\Actio.Services.Identity.AssemblyInfo.cs
+E:\Microservice\src\Actio.Services.Identity\obj\Debug\netcoreapp2.2\Actio.Services.Identity.RazorTargetAssemblyInfo.cache
+E:\Microservice\src\Actio.Services.Identity\obj\Debug\netcoreapp2.2\Actio.Services.Identity.csproj.CopyComplete
+E:\Microservice\src\Actio.Services.Identity\obj\Debug\netcoreapp2.2\Actio.Services.Identity.dll
+E:\Microservice\src\Actio.Services.Identity\obj\Debug\netcoreapp2.2\Actio.Services.Identity.pdb

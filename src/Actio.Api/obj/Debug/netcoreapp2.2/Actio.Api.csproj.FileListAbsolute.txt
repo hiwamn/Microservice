@@ -17,3 +17,20 @@ D:\Temp\Research13980605\Packtpub .NET Core Microservices [Video]_git.ir\Source\
 D:\Temp\Research13980605\Packtpub .NET Core Microservices [Video]_git.ir\Source\Actio\src\Actio.Api\obj\Debug\netcoreapp2.2\Actio.Api.csproj.CopyComplete
 D:\Temp\Research13980605\Packtpub .NET Core Microservices [Video]_git.ir\Source\Actio\src\Actio.Api\obj\Debug\netcoreapp2.2\Actio.Api.dll
 D:\Temp\Research13980605\Packtpub .NET Core Microservices [Video]_git.ir\Source\Actio\src\Actio.Api\obj\Debug\netcoreapp2.2\Actio.Api.pdb
+E:\Microservice\src\Actio.Api\bin\Debug\netcoreapp2.2\Actio.Api.deps.json
+E:\Microservice\src\Actio.Api\bin\Debug\netcoreapp2.2\Actio.Api.runtimeconfig.json
+E:\Microservice\src\Actio.Api\bin\Debug\netcoreapp2.2\Actio.Api.runtimeconfig.dev.json
+E:\Microservice\src\Actio.Api\bin\Debug\netcoreapp2.2\Actio.Api.dll
+E:\Microservice\src\Actio.Api\bin\Debug\netcoreapp2.2\Actio.Api.pdb
+E:\Microservice\src\Actio.Api\bin\Debug\netcoreapp2.2\Actio.Common.dll
+E:\Microservice\src\Actio.Api\bin\Debug\netcoreapp2.2\Actio.Common.pdb
+E:\Microservice\src\Actio.Api\obj\Debug\netcoreapp2.2\Actio.Api.csprojAssemblyReference.cache
+E:\Microservice\src\Actio.Api\obj\Debug\netcoreapp2.2\Actio.Api.csproj.CoreCompileInputs.cache
+E:\Microservice\src\Actio.Api\obj\Debug\netcoreapp2.2\Actio.Api.RazorAssemblyInfo.cache
+E:\Microservice\src\Actio.Api\obj\Debug\netcoreapp2.2\Actio.Api.RazorAssemblyInfo.cs
+E:\Microservice\src\Actio.Api\obj\Debug\netcoreapp2.2\Actio.Api.AssemblyInfoInputs.cache
+E:\Microservice\src\Actio.Api\obj\Debug\netcoreapp2.2\Actio.Api.AssemblyInfo.cs
+E:\Microservice\src\Actio.Api\obj\Debug\netcoreapp2.2\Actio.Api.RazorTargetAssemblyInfo.cache
+E:\Microservice\src\Actio.Api\obj\Debug\netcoreapp2.2\Actio.Api.csproj.CopyComplete
+E:\Microservice\src\Actio.Api\obj\Debug\netcoreapp2.2\Actio.Api.dll
+E:\Microservice\src\Actio.Api\obj\Debug\netcoreapp2.2\Actio.Api.pdb
