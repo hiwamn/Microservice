@@ -1,7 +1,6 @@
 D:\Temp\Research13980605\Packtpub .NET Core Microservices [Video]_git.ir\Source\Actio\src\Actio.Common\bin\Debug\netstandard2.0\Actio.Common.deps.json
 D:\Temp\Research13980605\Packtpub .NET Core Microservices [Video]_git.ir\Source\Actio\src\Actio.Common\bin\Debug\netstandard2.0\Actio.Common.dll
 D:\Temp\Research13980605\Packtpub .NET Core Microservices [Video]_git.ir\Source\Actio\src\Actio.Common\bin\Debug\netstandard2.0\Actio.Common.pdb
-D:\Temp\Research13980605\Packtpub .NET Core Microservices [Video]_git.ir\Source\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.csprojAssemblyReference.cache
 D:\Temp\Research13980605\Packtpub .NET Core Microservices [Video]_git.ir\Source\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.AssemblyInfoInputs.cache
 D:\Temp\Research13980605\Packtpub .NET Core Microservices [Video]_git.ir\Source\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.AssemblyInfo.cs
 D:\Temp\Research13980605\Packtpub .NET Core Microservices [Video]_git.ir\Source\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.dll
@@ -15,3 +14,4 @@ E:\Microservice\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.pdb
 E:\Microservice\src\Actio.Common\bin\Debug\netstandard2.0\Actio.Common.deps.json
 E:\Microservice\src\Actio.Common\bin\Debug\netstandard2.0\Actio.Common.dll
 E:\Microservice\src\Actio.Common\bin\Debug\netstandard2.0\Actio.Common.pdb
+D:\Temp\Research13980605\Packtpub .NET Core Microservices [Video]_git.ir\Source\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.csprojAssemblyReference.cache

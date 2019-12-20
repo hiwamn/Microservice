@@ -15,17 +15,33 @@ namespace Actio.Common.RabbitMq
 {
     public static class Extensions
     {
-        public static Task WithCommandHandlerAsync<TCommand>(this IBusClient bus, 
-            ICommandHandler<TCommand> handler) where TCommand : ICommand
-        => bus.SubscribeAsync<TCommand>(msg => handler.HandleAsync(msg),
-            ctx=>ctx.UseConsumerConfiguration(cfg=>
-            cfg.FromDeclaredQueue(q=>q.WithName(GetQueueName<TCommand>()))));
+        //public static Task WithCommandHandlerAsync<TCommand>(this IBusClient bus, 
+        //    ICommandHandler<TCommand> handler) where TCommand : ICommand
+        //=> bus.SubscribeAsync<TCommand>(msg => handler.HandleAsync(msg),
+        //    ctx=>ctx.UseConsumerConfiguration(cfg=>
+        //    cfg.FromDeclaredQueue(q=>q.WithName(GetQueueName<TCommand>()))));
 
-        public static Task WithEventHandlerAsync<TEvent>(this IBusClient bus, 
+        //public static Task WithEventHandlerAsync<TEvent>(this IBusClient bus, 
+        //    IEventHandler<TEvent> handler) where TEvent : IEvent
+        //=> bus.SubscribeAsync<TEvent>(msg => handler.HandleAsync(msg),
+        //    ctx=>ctx.UseConsumerConfiguration(cfg=>
+        //    cfg.FromDeclaredQueue(q=>q.WithName(GetQueueName<TEvent>()))));
+
+        public static Task WithCommandHandlerAsync<TCommand>(this IBusClient bus,
+            ICommandHandler<TCommand> handler) where TCommand : ICommand
+            => bus.SubscribeAsync<TCommand>(msg => handler.HandleAsync(msg),
+                context => context.UseSubscribeConfiguration(
+                    config => config.FromDeclaredQueue(
+                        queue => queue.WithName(GetQueueName<TCommand>()))));
+
+        // Event Handler Extension Method
+        public static Task WithEventHandlerAsync<TEvent>(this IBusClient bus,
             IEventHandler<TEvent> handler) where TEvent : IEvent
-        => bus.SubscribeAsync<TEvent>(msg => handler.HandleAsync(msg),
-            ctx=>ctx.UseConsumerConfiguration(cfg=>
-            cfg.FromDeclaredQueue(q=>q.WithName(GetQueueName<TEvent>()))));
+            => bus.SubscribeAsync<TEvent>(msg => handler.HandleAsync(msg),
+                context => context.UseSubscribeConfiguration(
+                    config => config.FromDeclaredQueue(
+                        queue => queue.WithName(GetQueueName<TEvent>()))));
+
 
         private static string GetQueueName<T>() => $"{Assembly.GetEntryAssembly().GetName()}/{typeof(T).Name}";
 

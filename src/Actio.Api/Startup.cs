@@ -12,7 +12,7 @@ using Microsoft.Extensions.Options;
 using Actio.Common.RabbitMq;
 using Actio.Common.Events;
 using Actio.Api.Handlers;
-
+using Actio.Common.Auth;
 namespace Actio.Api
 {
     public class Startup
@@ -28,8 +28,10 @@ namespace Actio.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-            services.AddRabbitMq(Configuration);
-            services.AddScoped<IEventHandler<ActivityCreated>, ActivityCreatedHandler>();
+            services.AddJwt(Configuration);
+            
+            services.AddRabbitMq(Configuration);            
+            services.AddSingleton<IEventHandler<ActivityCreated>, ActivityCreatedHandler>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

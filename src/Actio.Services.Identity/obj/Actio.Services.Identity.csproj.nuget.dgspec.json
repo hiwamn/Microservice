@@ -45,6 +45,10 @@
               "target": "Package",
               "version": "[2.1.1, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "Microsoft.AspNetCore.Hosting": {
               "target": "Package",
               "version": "[2.1.1, )"
@@ -52,6 +56,14 @@
             "Microsoft.AspNetCore.Hosting.Abstractions": {
               "target": "Package",
               "version": "[2.1.1, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.0, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -61,19 +73,19 @@
             },
             "RawRabbit": {
               "target": "Package",
-              "version": "[2.0.0-beta9, )"
+              "version": "[2.0.0-rc5, )"
             },
             "RawRabbit.DependencyInjection.ServiceCollection": {
               "target": "Package",
-              "version": "[2.0.0-beta9, )"
+              "version": "[2.0.0-rc5, )"
             },
             "RawRabbit.Operations.Publish": {
               "target": "Package",
-              "version": "[2.0.0-beta9, )"
+              "version": "[2.0.0-rc5, )"
             },
             "RawRabbit.Operations.Subscribe": {
               "target": "Package",
-              "version": "[2.0.0-beta9, )"
+              "version": "[2.0.0-rc5, )"
             }
           },
           "imports": [
@@ -147,6 +159,22 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "RawRabbit": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.DependencyInjection.ServiceCollection": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Operations.Publish": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Operations.Subscribe": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
             }
           },
           "imports": [
