@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Temp\\Research13980605\\Packtpub .NET Core Microservices [Video]_git.ir\\Source\\Actio\\src\\Actio.Common\\Actio.Common.csproj": {}
+    "E:\\Microservice\\src\\Actio.Common\\Actio.Common.csproj": {}
   },
   "projects": {
-    "D:\\Temp\\Research13980605\\Packtpub .NET Core Microservices [Video]_git.ir\\Source\\Actio\\src\\Actio.Common\\Actio.Common.csproj": {
+    "E:\\Microservice\\src\\Actio.Common\\Actio.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Temp\\Research13980605\\Packtpub .NET Core Microservices [Video]_git.ir\\Source\\Actio\\src\\Actio.Common\\Actio.Common.csproj",
+        "projectUniqueName": "E:\\Microservice\\src\\Actio.Common\\Actio.Common.csproj",
         "projectName": "Actio.Common",
-        "projectPath": "D:\\Temp\\Research13980605\\Packtpub .NET Core Microservices [Video]_git.ir\\Source\\Actio\\src\\Actio.Common\\Actio.Common.csproj",
-        "packagesPath": "C:\\Users\\Hirad\\.nuget\\packages\\",
-        "outputPath": "D:\\Temp\\Research13980605\\Packtpub .NET Core Microservices [Video]_git.ir\\Source\\Actio\\src\\Actio.Common\\obj\\",
+        "projectPath": "E:\\Microservice\\src\\Actio.Common\\Actio.Common.csproj",
+        "packagesPath": "C:\\Users\\3849824527\\.nuget\\packages\\",
+        "outputPath": "E:\\Microservice\\src\\Actio.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hirad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\3849824527\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,16 +89,10 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }

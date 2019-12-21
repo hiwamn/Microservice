@@ -26,6 +26,7 @@ namespace Actio.Services.Identity.Handlers
 
         public async Task HandleAsync(CreateUser command)
         {
+
             _logger.LogInformation($"Creating user: '{command.Email}' with name: '{command.Name}'.");
             try 
             {
@@ -37,6 +38,7 @@ namespace Actio.Services.Identity.Handlers
             }
             catch (ActioException ex)
             {
+                Console.WriteLine(ex.ToString());
                 _logger.LogError(ex, ex.Message);
                 await _busClient.PublishAsync(new CreateUserRejected(command.Email,
                     ex.Message, ex.Code)); 
