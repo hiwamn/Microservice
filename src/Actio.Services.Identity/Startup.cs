@@ -34,6 +34,14 @@ namespace Actio.Services.Identity
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowCredentials());
+            });
             services.AddJwt(Configuration);
             services.AddLogging();
             services.AddMongo(Configuration);
@@ -51,6 +59,7 @@ namespace Actio.Services.Identity
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseCors("CorsPolicy");
             app.ApplicationServices.GetService<IDatabaseInitializer>().InitialAsync();
             app.UseMvc();
         }
